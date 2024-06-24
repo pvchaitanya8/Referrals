@@ -45,14 +45,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
   headerTitle.addEventListener("animationend", function () {
       headerTitle.classList.remove("typing");
   });
-
-  // Function to toggle the Side Panel
-  function toggleSidePanel() {
-      const sidePanel = document.getElementById("sidePanel");
-      sidePanel.classList.toggle("open");
-  }
-
-  // Attach toggleSidePanel function to menu icon click event
-  const menuIcon = document.querySelector(".menu-icon");
-  menuIcon.addEventListener("click", toggleSidePanel);
 });
